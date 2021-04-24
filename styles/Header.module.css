@@ -1,0 +1,18 @@
+.span {
+    overflow: hidden;
+    white-space: nowrap;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#B03A2E;
+}
+.h1 {
+    color: #2ECC71;
+}
+.container{
+    display: flex;
+    overflow: hidden;
+    margin: 0px;
+    justify-content: center;
+    animation: typing 4s steps(22) forwards, blink 1s infinite;
+
+}
+

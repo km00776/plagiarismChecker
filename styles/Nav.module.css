@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style: url('/media/examples/rocket.svg');
+    background-color:  #B03A2E;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    list-style: none;
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav ul li a {
+    margin: 5px 20px;
+}
+.nav Link:hover {
+    background-color: red;
+  }
