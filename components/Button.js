@@ -23,7 +23,7 @@ export default function UploadButtons() {
   return (
     <div className={classes.root}>
       <input
-        accept="image/*"
+        accept=".xlsx, .xls, .csv"
         className={classes.input}
         id="contained-button-file"
         multiple
@@ -33,9 +33,7 @@ export default function UploadButtons() {
         <Button className={classes.root} variant="contained" component="span">
           Upload CSV
         </Button>
-      </label>
-      <input accept="image/*" className={classes.input} id="icon-button-file" type="file" />
-     
+      </label>    
     </div>
   );
 }
