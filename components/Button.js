@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles, withTheme } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import { readExcelFile } from '..';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -30,7 +31,7 @@ export default function UploadButtons() {
         type="file"
       />
       <label htmlFor="contained-button-file">
-        <Button className={classes.root} variant="contained" component="span">
+        <Button className={classes.root} onClick={readExcelFile()} variant="contained" component="span">
           Upload CSV
         </Button>
       </label>    
