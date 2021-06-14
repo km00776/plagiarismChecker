@@ -7,7 +7,7 @@ const Layout = () => {
         <>
         <Nav></Nav>
         <Header></Header>
-        <UploadButtons />
+        <UploadButtons></UploadButtons>    
         <Footer></Footer>
         </>
     )
