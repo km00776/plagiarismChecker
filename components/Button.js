@@ -24,7 +24,7 @@ export default function UploadButtons () {
     if (typeof window !== "undefined") {
       const input = document.getElementById('c');
       input.addEventListener ('change', () => {
-        readXlsxFile(input.files[0]).then (rows => {
+        readXlsxFile(input.files).then (rows => {
           console.log(rows);
         });
       });
